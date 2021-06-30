@@ -1,4 +1,3 @@
-//jshint esversion: 6
 import React from 'react';
 import PokeCell from './PokeCell';
 import { pokeClasses } from '../pokeClasses';
@@ -15,7 +14,7 @@ const PokeList = () => {
     });
     return (
         <section className="poke-list">
-            {cells}
+    
         </section>
     )  
 }

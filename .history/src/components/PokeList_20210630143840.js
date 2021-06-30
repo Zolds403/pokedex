@@ -15,7 +15,7 @@ const PokeList = () => {
     });
     return (
         <section className="poke-list">
-            {cells}
+    
         </section>
     )  
 }

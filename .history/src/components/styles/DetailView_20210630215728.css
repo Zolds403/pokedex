@@ -38,8 +38,3 @@
 .data-char {
     font-size: 10px;
 }
-
-/*
-Sprite-image will contain the selected Pokemon sprite.
-The data-char class refers to the characteristics of the Pokemon (id, name, type)
-*/

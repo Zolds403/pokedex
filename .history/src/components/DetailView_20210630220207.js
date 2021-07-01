@@ -13,4 +13,4 @@ const DetailView = () => {
     )
 }
 
-export default DetailView;
+export default DeatilView;

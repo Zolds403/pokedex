@@ -20,7 +20,7 @@ class App extends Component {
       .then(data => {
         const pokemon =new Pokemon(data);
 
-        this.setState({ pokemon });
+        console.log(pokemon);
       })
       .catch(err => console.log(err));
   }
@@ -29,7 +29,7 @@ class App extends Component {
     return (
       <div className="App">
         <PokeList handleOnClick={this.handleOnClick} />
-        <DetailView pokemon={this.state.pokemon} />
+        <DetailView />
       </div>
     );
   }

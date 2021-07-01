@@ -1,4 +1,3 @@
-//jshint esversion:6
 import React from 'react';
 import sprites from '../assets/sprites.png';
 import './styles/PokeCell.css';

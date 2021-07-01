@@ -29,7 +29,7 @@ class App extends Component {
     return (
       <div className="App">
         <PokeList handleOnClick={this.handleOnClick} />
-        <DetailView pokemon={this.state.pokemon} />
+        <DetailView />
       </div>
     );
   }
